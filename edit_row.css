@@ -1,0 +1,54 @@
+body{
+    background-color: #d5f7f8;
+}
+
+.edit_input {
+    width: 75%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.39);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 23px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header_label{
+    padding-top: 7px;
+    color: #5b55aa;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.edit_btn{
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #2927b0, #40b0fb);
+    border: 0;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.label{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#edit_btn_div{
+    margin-top: 20px;
+}

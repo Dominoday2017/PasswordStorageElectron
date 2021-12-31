@@ -1,0 +1,167 @@
+body{
+    background-color: #d5f7f8;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table {
+    background-color: rgba(0, 3, 161, 0.308);
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td,th {
+    border: 1px solid #8f8f8f;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #a0e8f1;
+}
+
+.header{
+    font-weight: 600;
+    text-align: center;
+}
+
+.input_data {
+    width: 35%;
+    margin-left: 10%;
+    color: rgb(27, 35, 39);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.39);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#position_input {
+    width: 25%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.39);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.input_form{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.input_data:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important; 
+}
+#position_input:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important; 
+}
+
+.input_p, .position_p {
+    padding-top: 7px;
+    color: #5b55aa;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.add_data_btn {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #2927b0, #40b0fb);
+    border: 0;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 44%;
+    font-size: 17px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  }
+
+.reload_btn, .show_pass_btn {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #2927b0, #40b0fb);
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 0%;
+    font-size: 17px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.delete_btn {
+    cursor: pointer;
+    border-radius: 1em;
+    color: #fff;
+    background: linear-gradient(to right, #b02727, #ff5c5c);
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 0%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.edit_btn{
+    margin-left: 10%;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.show_btn{
+    margin-left: 10%;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.del_btn{
+    margin-left: 10%;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.password_label{
+    outline: none;
+    font-size: large;
+    background: transparent;
+    width: 100%;
+}
+
+.notify{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: red;
+}

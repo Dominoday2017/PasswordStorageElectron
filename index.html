@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <title>Password Storager 2.0</title>
+      <link rel = "stylesheet" href = "./bower_components/bootstrap/dist/css/bootstrap.min.css" />
+      <link rel = "stylesheet" href = "background.css" />
+   </head>
+   
+   <body>
+      <div class="form_container">
+         <p class="input_p" align="center">Type data to add new positon to table</p>
+         <div class="input_form">
+            <input id="name_input" class="input_data" type="text" align="center" placeholder="Name">
+            <input id="email_input" class="input_data" type="text" align="center" placeholder="Email">
+            <input id="password_input" class="input_data" type="text" align="center" placeholder="Password">
+            <input id="other_input" class="input_data" type="text" align="center" placeholder="Other data">
+         </div>
+         <a class="add_data_btn" align="center">Add</a>
+      </div>
+      <div class="notify"><label id="notify_label"></label></div>
+      <hr style="margin-top: 25px">
+      <p class="position_p">
+         Find position:
+         <input id="position_input" type="text" placeholder="Search..">
+
+         <div class="notify"><label id="notify_label_table">Test</label></div>
+         
+         <div align="right">
+            <a class="reload_btn" align="right">Reload</a>
+            <a class="show_pass_btn" align="right">Show All Passwords</a>
+         </div> 
+      </p>  
+      
+      <table id="myTable">
+        <thead>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <script src="background.js"></script>
+      </body>
+</html>

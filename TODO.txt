@@ -1,0 +1,1 @@
+brak zabezpieczenia przy edycji rekordu- nazwa moze byc ta sama
